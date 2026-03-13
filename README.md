@@ -24,6 +24,6 @@
 |--------------|-------------|--------------|
 | ![](ss/pertemuan4/product.png) | ![](ss/pertemuan4/addProduct.png) | ![](ss/pertemuan4/productList.png) |
 
-| Edit Product | Product Detail | Database |
+| Edit Product | Product Detail | Product Table |
 |--------------|---------------|----------|
 | ![](ss/pertemuan4/editProduct.png) | ![](ss/pertemuan4/productDetail.png) | ![](ss/pertemuan4/db_productTable.png) |
