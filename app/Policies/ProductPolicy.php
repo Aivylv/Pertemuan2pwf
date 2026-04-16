@@ -37,8 +37,7 @@ class ProductPolicy
      */
     public function update(User $user, Product $product): bool
     {
-        // Admin boleh edit semua, User biasa hanya boleh edit miliknya sendiri
-        return $user->role === 'admin' || $user->id === $product->user_id;
+        return $user->role === 'admin' && $user->id === $product->user_id;
     }
 
     /**
@@ -46,8 +45,7 @@ class ProductPolicy
      */
     public function delete(User $user, Product $product): bool
     {
-        // Admin boleh hapus semua, User biasa hanya boleh hapus miliknya sendiri
-        return $user->role === 'admin' || $user->id === $product->user_id;
+        return $user->role === 'admin' && $user->id === $product->user_id;
     }
 
     /**
